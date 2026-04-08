@@ -1,0 +1,30 @@
+{
+  "name": "@eagle-eye/sdk",
+  "version": "1.0.0",
+  "description": "Official SDK for the Eagle Eye Trading Intelligence API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "eagle-eye",
+    "ai",
+    "solana",
+    "trading",
+    "memecoin",
+    "sdk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EagleEyeAgent/eagle-eye"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
